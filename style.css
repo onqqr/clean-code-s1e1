@@ -44,7 +44,7 @@ body {
 
 ul {
   margin: 0;
-  padding: 0px;
+  padding: 0;
 }
 
 li,
@@ -160,11 +160,11 @@ ul li input[type="text"] {
   display: none;
 }
 
-ul li.editMode input[type="text"] {
+ul li.edit-mode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.editMode label {
+ul li.edit-mode label {
   display: none;
 }

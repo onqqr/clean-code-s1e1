@@ -32,7 +32,7 @@
   margin: 0 auto 0;
 }
 
-.task {
+.add-section__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -53,6 +53,7 @@ li,
 }
 
 input,
+.add-section__input
 .btn {
   outline: none;
 }
@@ -83,6 +84,7 @@ input,
   text-transform: uppercase;
 }
 
+.add-section__input,
 input[type="text"] {
   margin: 0;
   font-size: 18px;
@@ -96,6 +98,7 @@ input[type="text"] {
   color: #888;
 }
 
+.add-section__input,
 input[type="text"]:focus {
   color: #333;
 }
@@ -106,7 +109,7 @@ input[type="text"]:focus {
   margin: 0 0 20px;
 }
 
-input#new-task {
+.add-section__input {
   width: 318px;
 }
 

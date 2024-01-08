@@ -73,7 +73,7 @@ input,
 
 /* Heading */
 .title-text,
-label[for="new-task"] {
+.add-section__label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -101,7 +101,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="new-task"] {
+.add-section__label {
   display: block;
   margin: 0 0 20px;
 }
